@@ -14,7 +14,7 @@ class School
     return roster[grade]
   end 
   
-  def sort 
-    
+  def sort(name)
+    roster[grade].sort    
   end 
 end
