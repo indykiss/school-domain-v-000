@@ -15,7 +15,4 @@ class School
     return sorted.sort
   end 
   
-  def sort
-    roster.sort
-   end 
 end
