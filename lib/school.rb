@@ -12,5 +12,5 @@ class School
   
   def method(grade)
     console.log(roster[grade])
-
+  end 
 end
