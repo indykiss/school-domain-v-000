@@ -11,6 +11,6 @@ class School
   end 
   
   def grade(grade)
-    console.log(roster[grade])
+    return (roster[grade])
   end 
 end
