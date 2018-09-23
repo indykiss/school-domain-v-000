@@ -15,6 +15,7 @@ class School
   end 
   
   def sort
-    roster[grade[0]].sort
+    sorted_hash = {}
+    
    end 
 end
