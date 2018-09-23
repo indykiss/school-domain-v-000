@@ -16,6 +16,5 @@ class School
   
   def sort(grade)
     roster.sort_by {|grade, name| name}
-    return sorted
    end 
 end
