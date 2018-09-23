@@ -15,7 +15,7 @@ class School
   end 
   
   def sort(grade)
-    sorterd = roster[grade].sort! 
+    sorterd = roster[grade].sort
     return sorted
    end 
 end
