@@ -4,7 +4,8 @@ class School
   
 
   def initialize(roster)
-    roster = Hash.new {|hash, key| hash[key] = ""}
+    roster = Hash.new
+    @roster = roster
   end 
 
 
