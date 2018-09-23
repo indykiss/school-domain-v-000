@@ -16,6 +16,6 @@ class School
   
   def sort(grade, roster)
     sorted = roster[grade].sort  
-    puts sorted
+    return sorted
   end 
 end
