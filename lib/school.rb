@@ -11,6 +11,6 @@ class School
   end 
   
   def grade(grade)
-    return (roster[grade])
+    return roster[grade]
   end 
 end
