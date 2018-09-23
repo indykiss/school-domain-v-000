@@ -10,7 +10,7 @@ class School
     roster[grade] << name
   end 
   
-  def method(grade)
+  def grade
     console.log(roster[grade])
   end 
 end
